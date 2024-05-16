@@ -1,10 +1,11 @@
 .page {
   max-width: 1600px;
   min-width: 1100px;
-  margin: 0 auto; /*Para centar el margen*/
+  margin: 0 auto;
   font-family: "Arial", sans-serif;
   font-size: 16px;
   line-height: 20px;
+  background-color: #ffffff;
 }
 
 .header {
@@ -19,7 +20,6 @@
 }
 
 .nav {
-  /* Agrega las propiedades flex aquí */
   display: flex;
   justify-content: space-between;
 }
@@ -30,7 +30,6 @@
 }
 
 .nav__links {
-  /* Restablece los estilos predeterminados de list aquí */
   display: flex;
   margin: 8px 0 0;
   column-gap: 20px;
@@ -45,7 +44,6 @@
 }
 
 .header__content {
-  /* Agrega las propiedades flex aquí */
   display: flex;
   justify-content: space-between;
 }
@@ -114,7 +112,6 @@
   color: #ffffff;
 }
 
-/* Agrega la regla CSS para tu nueva clase aquí. Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos */
 .staff__cards {
   margin: 0 auto;
   max-width: 760px;
@@ -291,4 +288,112 @@
   text-align: center;
   font-size: 14px;
   margin: 0;
+}
+
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+
+  gap: 40px;
+}
+
+.step {
+  flex-basis: 220px;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  padding: 60px 80px;
+}
+
+.footer__columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__column_content_hours {
+  margin-left: auto;
+}
+
+.footer__column_content_social {
+  margin-left: 80px;
+}
+
+.footer__logo {
+  width: 58px;
+  height: 80px;
+}
+
+.footer__column-heading {
+  color: white;
+  font-size: 15px;
+  padding: 0;
+  margin: 0px 0px 20px 0px;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  margin-top: 16px;
+  color: white;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.footer__social-icon {
+  height: 16px;
+  width: 16px;
+}
+
+.footer__copyright {
+  margin-top: 100px;
+  color: white;
 }
