@@ -338,7 +338,9 @@
 
 .footer {
   box-sizing: border-box;
+  background-size: cover;
   background-color: #1f1f1f;
+  color: #ffffff;
   padding: 60px 80px;
 }
 
@@ -375,7 +377,7 @@
 }
 
 .footer__list-item {
-  margin-top: 16px;
+  margin-bottom: 16px;
   color: white;
 }
 
