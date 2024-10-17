@@ -2,11 +2,10 @@
 
 ## Descripción del Proyecto
 
-**Web Project Library** es una página web diseñada para una biblioteca ficticia, demostrando habilidades en **HTML**, **CSS**, y **JavaScript**. El sitio web ofrece una experiencia interactiva y visualmente agradable, con las siguientes secciones clave:
+**Web Project Library** es una página web diseñada para una biblioteca ficticia, demostrando habilidades en **HTML**, **CSS**. El sitio web ofrece una experiencia interactiva y visualmente agradable, con las siguientes secciones clave:
 
 - **Catálogo de Libros**: Muestra una lista de libros disponibles con descripciones y detalles.
 - **Acerca de la Biblioteca**: Información sobre la misión, visión y la historia de la biblioteca.
-- **Formulario de Contacto**: Un formulario para que los usuarios envíen consultas o comentarios.
 
 El objetivo de este proyecto es ofrecer una experiencia intuitiva y moderna que refleje el entorno de una biblioteca contemporánea.
 
@@ -14,7 +13,6 @@ El objetivo de este proyecto es ofrecer una experiencia intuitiva y moderna que 
 
 - **HTML5**: Para la estructura semántica del sitio.
 - **CSS3**: Para el diseño responsivo y atractivo.
-- **JavaScript**: Para funcionalidades dinámicas e interactivas.
 
 ## Planes de Mejora
 
